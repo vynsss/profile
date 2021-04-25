@@ -522,6 +522,16 @@ section {
   }
 }
 
+/*--------------------------------------------------------------
+# Educations
+--------------------------------------------------------------*/
+.education .list h4 {
+  font-size: 25px;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
 
 /*--------------------------------------------------------------
 # Facts
