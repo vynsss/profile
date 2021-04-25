@@ -393,6 +393,10 @@ section {
   font-family: Helvetica, sans-serif;
 }
 
+#experience .font-italic {
+  font-size: 15px;
+}
+
 /* The actual timeline (the vertical ruler) */
 #experience .timeline {
   position: relative;
