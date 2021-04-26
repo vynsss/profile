@@ -675,7 +675,7 @@ section {
   text-align: right;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 770px) {
   #activity .contain-reverse{
     flex-direction: column-reverse;
   }
