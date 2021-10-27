@@ -1,4 +1,5 @@
 # Profile Page
+https://vynsss.github.io/profile/
 <h1> what is this? </h1>
 <p>This is something that I make for fun and nothing else</p>
 <p>This is still in development and not completely done yet</p>
