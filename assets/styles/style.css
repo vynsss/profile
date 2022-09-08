@@ -1,0 +1,101 @@
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/raleway/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: hatton;
+    src: url(../fonts/hatton/PP\ Hatton\ Medium\ 500.otf);
+}
+
+/* general */
+body {
+    font-family: raleway;
+}
+
+h1, h2, h3 {
+    font-family: hatton;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 1em;
+}
+
+h4, h5 {
+    font-weight: bold;
+}
+
+a {
+    color: #F4EAE9;
+}
+
+a:hover, .navbar-nav .nav-link:hover, i:hover {
+    color: #ddc6a4
+}
+
+.fa {
+    color: black;
+}
+
+.banner a {
+    font-size: 18px;
+    display: inline-block;
+    background: #fff;
+    line-height: 1;
+    padding: 10px 10px;
+    margin-right: 20px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+/* body content */
+.banner {
+    background-color: #F4EAE9;
+    font-weight: bolder;
+    padding: 100px 0;
+    margin-top: 57px;
+    letter-spacing: 1em;
+    text-transform: uppercase;
+}
+
+.content {
+    margin-bottom: 2em;
+}
+
+.content-subtitle {
+    font-weight: bold;
+    opacity: .5;
+}
+
+.content li::marker{
+    color: #ddc6a4;
+}
+
+/* progress */
+.progress {
+    height: .75em;
+}
+
+.progress-bar {
+    background-color: #ddc6a4;
+}
+
+/* bootstrap overwrite */
+.container {
+    width: 100%;
+}
+
+.row {
+    margin-left: 0;
+}
+.row>* {
+    padding: 0;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
