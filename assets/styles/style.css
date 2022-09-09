@@ -23,6 +23,11 @@ h4, h5 {
     font-weight: bold;
 }
 
+footer {
+    padding: 1rem;
+    background-color: #F4EAE9;
+}
+
 a {
     color: #F4EAE9;
 }
@@ -33,6 +38,16 @@ a:hover, .navbar-nav .nav-link:hover, i:hover {
 
 .fa {
     color: black;
+}
+
+/* body content */
+.banner {
+    background-color: #F4EAE9;
+    font-weight: bolder;
+    padding: 100px 0;
+    margin-top: 57px;
+    letter-spacing: 1em;
+    text-transform: uppercase;
 }
 
 .banner a {
@@ -47,16 +62,6 @@ a:hover, .navbar-nav .nav-link:hover, i:hover {
     width: 36px;
     height: 36px;
     transition: 0.3s;
-}
-
-/* body content */
-.banner {
-    background-color: #F4EAE9;
-    font-weight: bolder;
-    padding: 100px 0;
-    margin-top: 57px;
-    letter-spacing: 1em;
-    text-transform: uppercase;
 }
 
 .content {
