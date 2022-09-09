@@ -2,6 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
         <title>Vicky Vanessa</title>
         <link href="assets/images/favicon.ico" rel="shortcut icon">
 
@@ -77,20 +79,18 @@
       <div id="skills">
         <h3>Skills</h3>
         <div class="content">
-          <ul>
-            <div v-for="skill in skills" class="row">
-              <p class="col-4">{{skill.name}}</p>
-              <div class="col-8 progress">
-                <div 
-                  class="progress-bar progress-bar-striped" 
-                  role="progressbar" 
-                  :style="{'width': skill.proficiency + '%'}"
-                  :aria-valuenow="skill.proficiency" 
-                  aria-valuemin="0" 
-                  aria-valuemax="100"></div>
-              </div>
+          <div v-for="skill in skills" class="row">
+            <p class="col-4">{{skill.name}}</p>
+            <div class="col-8 progress">
+              <div 
+                class="progress-bar progress-bar-striped" 
+                role="progressbar" 
+                :style="{'width': skill.proficiency + '%'}"
+                :aria-valuenow="skill.proficiency" 
+                aria-valuemin="0" 
+                aria-valuemax="100"></div>
             </div>
-          </ul>
+          </div>
         </div>
       </div>
 

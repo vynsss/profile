@@ -3,4 +3,4 @@
 <p>This is something that I make for fun and nothing else</p>
 
 <p>Developed using HTML, CSS, & Vue CDN for easier data management</p>
-<p>last updated on 08 September 2022</p>
+<p>last updated on 09 September 2022</p>

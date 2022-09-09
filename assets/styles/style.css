@@ -61,6 +61,8 @@ a:hover, .navbar-nav .nav-link:hover, i:hover {
 
 .content {
     margin-bottom: 2em;
+    width: 100%;
+    padding: 0 10px;
 }
 
 .content-subtitle {
@@ -88,9 +90,14 @@ a:hover, .navbar-nav .nav-link:hover, i:hover {
 
 .row {
     margin-left: 0;
+    margin-right: 0;
 }
 .row>* {
     padding: 0;
+}
+
+#activities .rounded-start {
+    border-radius: .25rem !important;
 }
 
 @media (min-width: 1200px) {
